@@ -16,7 +16,8 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <hr>
 <br>
 <h1 style="font-size:18px;color:yellow;">Main Payloads</h1>
-<button class="btn" onclick=load_goldhen2b2()> GoldHEN 2.0b2 </button>
+<button class="btn" onclick=load_goldhen21()> GoldHEN v2.1 </button>
+<button class="btn" onclick=load_goldhen2b2()> GoldHEN v2.0b2 </button>
 <button class="btn" onclick=load_binloader()> Bin Loader </button>
 <br>
 <h1 style="font-size:18px;text-align:center;">Payloads</h1>
@@ -60,6 +61,13 @@ for(var i=40; i<=79; i++){
 tempC.value=60;
 </script>
 <script>
+function load_goldhen21(){
+var script = document.createElement('script');script.src = "goldhen_2.1.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading GoldHEN v2.1... Please Wait !!!";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
 function load_goldhen2b2(){
 var script = document.createElement('script');script.src = "goldhen_2.0b2.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading GoldHEN v2.0b2... Please Wait !!!";
