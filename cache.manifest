@@ -23,7 +23,6 @@ malloc.js
 module-dumper.js
 netcat.js
 Orbis-Toolbox-900.js
-payload.html
 payload.js
 permanent-uart.js
 ps4debug.js
