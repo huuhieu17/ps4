@@ -18,8 +18,10 @@ img.jpg
 index.html
 int64.js
 kernel-dumper.js
+kexploit-launcher.js
 kexploit.js
 malloc.js
+mira.js
 module-dumper.js
 netcat.js
 online.html
@@ -40,3 +42,6 @@ todex.js
 webactivator.html
 webkit.js
 webrte.js
+
+NETWORK: 
+* 
