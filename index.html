@@ -50,7 +50,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <br>
 <h1 style="margin-top: 55px;color: yellow;">Special Thanks to:<a href="https://twitter.com/sleirsgoevy" style="color:#f31414; margin-left: 15px;">@sleirsgoevy</a><a style="color:white; margin-left: 15px;">ChendoChap</a><a href="https://twitter.com/SpecterDev" style="color:#f31414; margin-left: 15px;">@SpecterDev</a><a style="color:white; margin-left: 15px;">SiSTR0</a><a href="https://twitter.com/Znullptr" style="color:#f31414; margin-left: 15px;">@Znullptr</a><a style="color:white; margin-left: 15px;">And Many More Developers ...</a></h1>
 <script>
-for(var i=40; i<=79; i++){
+for(var i=40; i<=75; i=i+5){
     var select = document.getElementById("tempC");
     var option = document.createElement("OPTION");
 	select.options.add(option);
@@ -61,8 +61,8 @@ tempC.value=60;
 </script>
 <script>
 function load_goldhen22(){
-var script = document.createElement('script');script.src = "goldhen_2.2.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading GoldHEN v2.2... Please Wait !!!";
+PLfile = "goldhen_2.2.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
@@ -74,133 +74,134 @@ setTimeout(poc,1500);
 }
 
 function load_todex(){
-var script = document.createElement('script');script.src = "todex.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading ToDex... Please Wait !!!"
+PLfile = "todex.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_dumper(){
-var script = document.createElement('script');script.src = "dumper.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading App-Dumper... Please Wait !!!"
+PLfile = "dumper.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_ftp(){
-var script = document.createElement('script');script.src = "ftp.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading FTP... Please Wait !!!"
+PLfile = "ftp.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_app2usb(){
-var script = document.createElement('script');script.src = "app2usb.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading App2USB... Please Wait !!!"
+PLfile = "app2usb.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_dbackup(){
-var script = document.createElement('script');script.src = "backup.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading DB Backup... Please Wait !!!"
+PLfile = "backup.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_dbrestore(){
-var script = document.createElement('script');script.src = "restore.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading DB Restore... Please Wait !!!"
+PLfile = "restore.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_enablebUpdates(){
-var script = document.createElement('script');script.src = "enable-updates.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Enable Updates... Please Wait !!!"
+PLfile = "enable-updates.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_disableUpdates(){
-var script = document.createElement('script');script.src = "disable-updates.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Disable Updates... Please Wait !!!"
+PLfile = "disable-updates.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_historyBlocker(){
-var script = document.createElement('script');script.src = "history-blocker.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading History Blocker... Please Wait !!!"
+PLfile = "history-blocker.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_kernelDump(){
-var script = document.createElement('script');script.src = "kernel-dumper.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Kernel Dumper... Please Wait !!!"
+PLfile = "kernel-dumper.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_moduleDump(){
-var script = document.createElement('script');script.src = "module-dumper.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Module Dumper... Please Wait !!!"
+PLfile = "module-dumper.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_ps4debug(){
-var script = document.createElement('script');script.src = "ps4debug.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading PS4 Debug... Please Wait !!!"
+PLfile = "ps4debug.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_disbAslr(){
-var script = document.createElement('script');script.src = "disable-aslr.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Disable ASLR... Please Wait !!!"
+PLfile = "disable-aslr.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_exitidu(){
-var script = document.createElement('script');script.src = "exit-idu.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Exit IDU... Please Wait !!!"
+PLfile = "exit-idu.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_rifRen(){
-var script = document.createElement('script');script.src = "rif-renamer.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading RIF Renamer... Please Wait !!!"
+PLfile = "rif-renamer.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_permUart(){
-var script = document.createElement('script');script.src = "permanent-uart.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Permanent UART... Please Wait !!!"
+PLfile = "permanent-uart.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_webrte(){
-var script = document.createElement('script');script.src = "webrte.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading WebRTE... Please Wait !!!"
+PLfile = "webrte.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_toolbox(){
-var script = document.createElement('script');script.src = "Orbis-Toolbox-900.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Orbis-Toolbox... Please Wait !!!"
+PLfile = "Orbis-Toolbox-900.bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
 function load_fanthreshold(){
-var script = document.createElement('script');script.src = "fan-threshold.js";localStorage.setItem('fanthreshold', tempC.value);document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Fan Threshold... Please Wait !!!"
+PLfile = "fan-threshold"+tempC.value+".bin";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
